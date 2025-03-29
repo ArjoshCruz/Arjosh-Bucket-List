@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arjosh's Bucket List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <h1>Hi there! I'm Arjosh.</h1>
+        <ul>
+          <li>I want to travel the whole world.</li>
+          <li>I want to make a shiny living dex Pokemon.</li>
+          <li>I want to be the very best</li>
+          <li>I want to master Web Development.</li>
+          <li>I want to experience and see aurora borealis.</li>
+        </ul>
+      </div>
+
+      <p>
+        Add New:
+        <input
+          type="text"
+          id="newBucketList"
+          placeholder="add new bucket list here"
+        />
+      </p>
+
+      <button id="demoButton" class="btn" onclick="addNewElement()">
+        Add New
+      </button>
+      <button id="demoButton" class="btn" onclick="changeFontFamily()">
+        Change Font Family
+      </button>
+      <button class="btn" onclick="makeBold()">Make Bold</button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

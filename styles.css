@@ -1,0 +1,13 @@
+body {
+    background-color: lightslategray;
+}
+#container {
+    background-color: lightblue;
+    border: solid;
+    width: 600px;
+}
+.btn {
+    padding: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
